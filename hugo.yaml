@@ -1,11 +1,13 @@
-baseURL: 'https://turing-blog.netlify.app/'
+baseURL: 'https://turing-centauro.netlify.app/'
 locale: pt-BR
 title: Turing — Análise Estratégica de IA
 theme: hextra
 
 params:
   description: "Análise diária dos pontos de atenção, tendências e movimentos estratégicos no mundo da Inteligência Artificial. Curadoria do Projeto Centauro."
-  author: Pvolker / Projeto Centauro
+  author:
+    name: Pvolker / Projeto Centauro
+    email: pvolker@mdh-hability.com
   navbar:
     displayLogo: true
   editURL:

@@ -1,0 +1,29 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/opt/data/turing-blog/public"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "hugo --gc --minify"
+
+[build.environment]
+HUGO_VERSION = "0.165.0"
+HUGO_ENV = "production"
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
