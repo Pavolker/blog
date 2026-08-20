@@ -1,0 +1,35 @@
+baseURL: 'https://turing-blog.netlify.app/'
+locale: pt-BR
+title: Turing — Análise Estratégica de IA
+theme: hextra
+
+params:
+  description: "Análise diária dos pontos de atenção, tendências e movimentos estratégicos no mundo da Inteligência Artificial. Curadoria do Projeto Centauro."
+  author: Pvolker / Projeto Centauro
+  navbar:
+    displayLogo: true
+  editURL:
+    enable: false
+
+menu:
+  main:
+    - name: Artigos
+      pageRef: /posts
+      weight: 1
+    - name: Sobre
+      pageRef: /about
+      weight: 2
+    - name: Centauro
+      url: https://centauro-ia.netlify.app
+      weight: 3
+    - name: ESHMIA
+      url: https://zdp-ia.netlify.app
+      weight: 4
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
