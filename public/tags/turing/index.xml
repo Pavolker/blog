@@ -3,7 +3,7 @@
 &lt;strong&gt;Benchmarks:&lt;/strong&gt; 16 modelos | Open LLM Leaderboard v2 | fev/2025&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 data-hextra-search-id="-benchmarks-ao-vivo-open-llm-leaderboard"&gt;📊 Benchmarks ao Vivo (Open LLM Leaderboard)&lt;span class="hx:absolute hx:-mt-20" id="-benchmarks-ao-vivo-open-llm-leaderboard"&gt;&lt;/span&gt;
-&lt;a href="#-benchmarks-ao-vivo-open-llm-leaderboard" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;16 modelos&lt;/strong&gt; | Fonte: Open LLM Leaderboard v2 | Dados: fev/2025&lt;/p&gt;
+&lt;a href="#-benchmarks-ao-vivo-open-llm-leaderboard" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;16 modelos&lt;/strong&gt; | Fonte: Open LLM Leaderboard v2 | Dados: fev/2025&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Qwen 2.5 72B&lt;/strong&gt;: ESHMIA=0.9063 (IFEval: 1.0490 | BBH: 0.9674 | MATH: 1.4955 | GPQA: 0.5769 | MUSR: 0.5990 | MMLU-PRO: 0.7501)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Qwen 2.5 32B&lt;/strong&gt;: ESHMIA=0.8949 (IFEval: 1.0074 | BBH: 0.9165 | MATH: 1.5634 | GPQA: 0.5201 | MUSR: 0.6066 | MMLU-PRO: 0.7555)&lt;/li&gt;
@@ -14,8 +14,8 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 data-hextra-search-id="-síntese-por-prioridade"&gt;🔥 Síntese por Prioridade&lt;span class="hx:absolute hx:-mt-20" id="-síntese-por-prioridade"&gt;&lt;/span&gt;
-&lt;a href="#-s%c3%adntese-por-prioridade" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3 data-hextra-search-id="-ferramentas-para-dev"&gt;🛠️ Ferramentas para Dev&lt;span class="hx:absolute hx:-mt-20" id="-ferramentas-para-dev"&gt;&lt;/span&gt;
-&lt;a href="#-ferramentas-para-dev" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;a href="#-s%c3%adntese-por-prioridade" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3 data-hextra-search-id="-ferramentas-para-dev"&gt;🛠️ Ferramentas para Dev&lt;span class="hx:absolute hx:-mt-20" id="-ferramentas-para-dev"&gt;&lt;/span&gt;
+&lt;a href="#-ferramentas-para-dev" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation&lt;/strong&gt; (arXiv cs.AI)
 &lt;blockquote&gt;
 &lt;p&gt;Interpretação personalizada de laudos médicos usando aprendizado por recompensa alinhado a checklists — combina facticidade baseada em evidências com adaptação ao contexto do paciente.&lt;/p&gt;
@@ -33,7 +33,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 data-hextra-search-id="-críticos-da-ia"&gt;🗣️ Críticos da IA&lt;span class="hx:absolute hx:-mt-20" id="-críticos-da-ia"&gt;&lt;/span&gt;
-&lt;a href="#-cr%c3%adticos-da-ia" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;a href="#-cr%c3%adticos-da-ia" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models&lt;/strong&gt; (arXiv cs.CL)
 &lt;blockquote&gt;
 &lt;p&gt;Benchmark para avaliar a capacidade de &amp;ldquo;desaprender&amp;rdquo; conhecimento sensível em LLMs de forma sensível ao contexto — métodos e benchmarks existentes falham em avaliar essa capacidade de forma completa.&lt;/p&gt;
@@ -46,7 +46,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 data-hextra-search-id="-ia-no-cotidiano"&gt;🌱 IA no Cotidiano&lt;span class="hx:absolute hx:-mt-20" id="-ia-no-cotidiano"&gt;&lt;/span&gt;
-&lt;a href="#-ia-no-cotidiano" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;a href="#-ia-no-cotidiano" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction&lt;/strong&gt; (arXiv cs.AI)
 &lt;blockquote&gt;
 &lt;p&gt;Abordagem com três agentes para coleta ativa de dados, modelagem de comportamento de viagem e previsão de demanda sensível ao clima.&lt;/p&gt;
@@ -59,7 +59,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 data-hextra-search-id="-ideias-de-apps"&gt;💡 Ideias de Apps&lt;span class="hx:absolute hx:-mt-20" id="-ideias-de-apps"&gt;&lt;/span&gt;
-&lt;a href="#-ideias-de-apps" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;a href="#-ideias-de-apps" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Choosing to Stay Human&lt;/strong&gt; (One Useful Thing — Ethan Mollick)
 &lt;blockquote&gt;
 &lt;p&gt;Ensaio sobre o custo de usar IA como padrão em vez de escolha consciente. Mollick argumenta que a &amp;ldquo;rendição cognitiva&amp;rdquo; (deixar a IA pensar por você) é o default dos sistemas atuais, mas há alternativas — usar IA como tutora em vez de resolvedora de problemas, manter o atrito necessário para aprender, e decidir deliberadamente o que delegar e o que preservar como humano. A diferença entre usar IA para dar respostas (que atrofia) vs. usá-la para empurrar você a resolver problemas (que desenvolve) é o cerne da questão.&lt;/p&gt;
@@ -67,7 +67,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 data-hextra-search-id="-modelos-de-ponta"&gt;🚀 Modelos de Ponta&lt;span class="hx:absolute hx:-mt-20" id="-modelos-de-ponta"&gt;&lt;/span&gt;
-&lt;a href="#-modelos-de-ponta" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;a href="#-modelos-de-ponta" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement&lt;/strong&gt; (arXiv cs.AI / cs.LG / cs.CL)
 &lt;blockquote&gt;
 &lt;p&gt;Benchmark para agentes LLM em design algorítmico para auto-melhoria recursiva (RSI). A pergunta central: um sistema de IA pode melhorar o processo que produz sistemas de IA? O paper testa se agentes conseguem projetar algoritmos de treinamento melhores, criando um ciclo de auto-aprimoramento.&lt;/p&gt;
@@ -76,14 +76,14 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 data-hextra-search-id="-análise-estratégica-turing"&gt;🧠 Análise Estratégica Turing&lt;span class="hx:absolute hx:-mt-20" id="-análise-estratégica-turing"&gt;&lt;/span&gt;
-&lt;a href="#-an%c3%a1lise-estrat%c3%a9gica-turing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;O dia 21 de agosto de 2026 não traz nenhum anúncio bombástico de modelo de fronteira, mas isso não significa que o movimento tenha parado — ele apenas migrou para um terreno mais profundo e estrutural. O dado mais silencioso e talvez mais revelador do dia está nos benchmarks: a família Qwen 2.5, da Alibaba, ocupa as quatro primeiras posições do Open LLM Leaderboard, com o 72B alcançando 0,9063 de ESHMIA e o 32B chegando a 0,8949. Não houve nenhum lançamento novo de OpenAI, Anthropic ou Google capaz de deslocar essa liderança. A consolidação silenciosa dos modelos abertos chineses — com desempenho comparável a modelos fechados e capacidade de rodar em hardware modesto (o 14B cabe em 16 GB, o 7B em 8 GB) — é um fato estratégico que reconfigura o mercado sem alarde. Para quem desenvolve, o custo de entrada em capacidade de fronteira está caindo rapidamente, e a fonte desse custo não está mais restrita ao Vale do Silício.&lt;/p&gt;
+&lt;a href="#-an%c3%a1lise-estrat%c3%a9gica-turing" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;O dia 21 de agosto de 2026 não traz nenhum anúncio bombástico de modelo de fronteira, mas isso não significa que o movimento tenha parado — ele apenas migrou para um terreno mais profundo e estrutural. O dado mais silencioso e talvez mais revelador do dia está nos benchmarks: a família Qwen 2.5, da Alibaba, ocupa as quatro primeiras posições do Open LLM Leaderboard, com o 72B alcançando 0,9063 de ESHMIA e o 32B chegando a 0,8949. Não houve nenhum lançamento novo de OpenAI, Anthropic ou Google capaz de deslocar essa liderança. A consolidação silenciosa dos modelos abertos chineses — com desempenho comparável a modelos fechados e capacidade de rodar em hardware modesto (o 14B cabe em 16 GB, o 7B em 8 GB) — é um fato estratégico que reconfigura o mercado sem alarde. Para quem desenvolve, o custo de entrada em capacidade de fronteira está caindo rapidamente, e a fonte desse custo não está mais restrita ao Vale do Silício.&lt;/p&gt;
 &lt;p&gt;O avanço mais significativo em capacidade, no entanto, vem de um lugar inesperado: o paper AI4AI-Bench propõe um benchmark para avaliar se agentes LLM conseguem projetar algoritmos de treinamento melhores do que os existentes — a auto-melhoria recursiva (RSI). Se isso funciona, o sistema pode iterativamente melhorar o próprio processo que o gera, criando um ciclo que dispensa intervenção humana. O paper é importante não por ter demonstrado sucesso, mas por ter criado o instrumento para medi-lo: é um marco de engenharia, não de resultados. O RSI sempre foi tratado como cenário de ficção científica; ter um benchmark para medi-lo é um passo técnico concreto que merece atenção continuada.&lt;/p&gt;
 &lt;p&gt;Mas o dia também traz contrapontos que recontextualizam esse avanço. Ethan Mollick, em Choosing to Stay Human, não escreve contra a IA, mas contra o uso irrefletido dela — a &amp;ldquo;rendição cognitiva&amp;rdquo; que acontece quando sistemas projetados para serem fluidos demais eliminam o atrito necessário para pensar. O dado mais impressionante vem de um experimento com mil alunos de matemática na Turquia: quem usou ChatGPT para fazer a lição de casa teve melhor desempenho imediato, mas pior desempenho na prova — porque recebeu respostas prontas em vez de ser empurrado a resolver problemas. No extremo oposto, um curso de Python com mil alunos em Taipei, usando IA como tutora personalizada, produziu ganhos equivalentes a seis a nove meses de escolaridade adicional. A diferença entre dar respostas e ser tutor não é técnica, é de design de interação — e a indústria, pressionada pela métrica de engajamento, remove consistentemente o atrito que torna o aprendizado possível.&lt;/p&gt;
 &lt;p&gt;Enquanto Mollick alerta sobre a perda de autonomia cognitiva no nível individual, Kapoor e Narayanan apontam para o mesmo fenômeno no nível institucional. Em Up the Stack, eles argumentam que a fuga da commoditização — o movimento das empresas de IA de vender modelos isolados para vender soluções integradas — não está criando liberdade, mas um lock-in empresarial mais profundo. Críticos e entusiastas estão ambos olhando para o lugar errado, segundo eles: o risco não é que a IA substitua empresas, mas que as empresas fiquem presas a ecossistemas proprietários que controlam cada camada da pilha — dados, modelo, plataforma, implantação. A &amp;ldquo;commodity trap&amp;rdquo; que assombra a indústria é o medo de que modelos abertos como Qwen tornem APIs caras irrelevantes; a resposta da indústria é subir a pilha, e o preço disso é a autonomia de quem adota.&lt;/p&gt;
 &lt;p&gt;A leitura estratégica do dia é que a técnica avança em duas direções simultâneas e conflitantes: mais autonomia para os sistemas (RSI, agentes multitarefa, roteamento inteligente) e menos autonomia para os humanos (rendição cognitiva, lock-in empresarial). O fio que conecta todos os pontos é o mesmo: a capacidade de um sistema ser confiável e auditável não é um acessório, é a condição para que a delegação não vire dependência. O benchmark certo para 2026 talvez não seja o ESHMIA, mas uma régua que meça quanto um sistema preserva a capacidade de quem o usa de aprender, decidir e escolher — o que Mollick chama de &amp;ldquo;escolher o que manter humano&amp;rdquo; e Kapoor/Narayanan chamam de &amp;ldquo;não trocar commoditização por servidão&amp;rdquo;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 data-hextra-search-id="-para-explorar"&gt;📌 Para Explorar&lt;span class="hx:absolute hx:-mt-20" id="-para-explorar"&gt;&lt;/span&gt;
-&lt;a href="#-para-explorar" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;a href="#-para-explorar" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a
 href="http://arxiv.org/abs/2608.20331v1"target="_blank" rel="noopener"&gt;📄 G-CARL: Grounded Checklist-Aligned Reward Learning&lt;/a&gt; — arXiv&lt;/li&gt;
 &lt;li&gt;&lt;a

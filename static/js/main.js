@@ -131,3 +131,54 @@ function copyToClipboard(text, btnElement) {
     console.error('Falha ao copiar link: ', err);
   });
 }
+
+/* ==========================================================================
+   LANGUAGE SWITCHER (Hextra-compatible)
+   ========================================================================== */
+document.addEventListener('DOMContentLoaded', () => {
+  initLanguageSwitcher();
+});
+
+function initLanguageSwitcher() {
+  const languageSwitchers = document.querySelectorAll('.hextra-language-switcher');
+  if (!languageSwitchers.length) return;
+
+  const toggleMenu = (switcher) => {
+    const options = switcher.nextElementSibling;
+    if (!options) return;
+    options.classList.toggle('hx\\:hidden');
+    const rect = switcher.getBoundingClientRect();
+    options.style.minWidth = Math.max(rect.width, 50) + 'px';
+    const isOnTop = switcher.dataset.location === 'top';
+    let x = isOnTop ? rect.right - options.clientWidth : rect.left;
+    let y = isOnTop ? rect.bottom + 4 : rect.top - options.clientHeight - 4;
+    options.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+  };
+
+  const closeSwitcher = (switcher, focusSwitcher = false) => {
+    switcher.dataset.state = 'closed';
+    switcher.setAttribute('aria-expanded', 'false');
+    const options = switcher.nextElementSibling;
+    if (options) options.classList.add('hx\\:hidden');
+    if (focusSwitcher) switcher.focus();
+  };
+
+  languageSwitchers.forEach((switcher) => {
+    switcher.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (switcher.dataset.state === 'open') {
+        closeSwitcher(switcher);
+      } else {
+        switcher.dataset.state = 'open';
+        switcher.setAttribute('aria-expanded', 'true');
+        toggleMenu(switcher);
+      }
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.hextra-language-switcher') && !e.target.closest('.hextra-language-options')) {
+      languageSwitchers.forEach((s) => closeSwitcher(s));
+    }
+  });
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang | default "pt-BR" }}" data-theme="dark">
+<html lang="{{ .Site.Language.Lang }}" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,10 +20,10 @@
   <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
   <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
 
-  <!-- Favicon placeholder or site icon (we can use standard emojis or clean look) -->
+  <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
 
-  <!-- Preconnect Google Fonts for performance -->
+  <!-- Preconnect Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -60,6 +60,9 @@
       </nav>
 
       <div class="navbar-actions">
+        {{ if hugo.IsMultilingual }}
+          {{ partial "language-switch.html" (dict "context" . "grow" false "hideLabel" false "iconName" "lucide:languages" "iconHeight" 20 "location" "top" "class" "hx:p-1 hx:md:p-2") }}
+        {{ end }}
         <!-- Botão Toggle de Tema -->
         <button class="theme-toggle-btn" aria-label="Alternar tema claro/escuro" title="Alternar tema">
           <!-- Sun Icon (Tema Claro) -->

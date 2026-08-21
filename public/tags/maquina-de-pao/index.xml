@@ -7,10 +7,10 @@
 &lt;h1 data-hextra-search-id="zipf-a-máquina-de-pão-e-o-desvio-estatístico-como-medida-do-gesto"&gt;Zipf, a Máquina de Pão e o Desvio Estatístico como Medida do Gesto&lt;/h1&gt;&lt;p&gt;&lt;em&gt;Conexão entre a Lei de Zipf, os modelos de linguagem e a tese de &amp;ldquo;Produzir IA&amp;rdquo; (Paulo Volker)&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 data-hextra-search-id="1-markov-o-zipf-puro"&gt;1. Markov: o Zipf Puro&lt;span class="hx:absolute hx:-mt-20" id="1-markov-o-zipf-puro"&gt;&lt;/span&gt;
-&lt;a href="#1-markov-o-zipf-puro" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;O modelo de Markov é a máquina de pão na sua forma mais primitiva. Ele só pergunta: &lt;em&gt;qual a próxima palavra mais provável, dado o que veio antes?&lt;/em&gt; A resposta é pura contagem de frequências.&lt;/p&gt;
+&lt;a href="#1-markov-o-zipf-puro" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;O modelo de Markov é a máquina de pão na sua forma mais primitiva. Ele só pergunta: &lt;em&gt;qual a próxima palavra mais provável, dado o que veio antes?&lt;/em&gt; A resposta é pura contagem de frequências.&lt;/p&gt;
 &lt;p&gt;Um modelo de Markov bem treinado segue a Lei de Zipf com inclinação &lt;strong&gt;-1,0&lt;/strong&gt;. A coluna Freq×Rank é quase constante. O resultado soa estatisticamente correto e humanamente vazio — a &amp;ldquo;salada de palavras&amp;rdquo; dos anos 1990, o texto sem gesto.&lt;/p&gt;
 &lt;h2 data-hextra-search-id="2-o-giro-dos-transformers"&gt;2. O Giro dos Transformers&lt;span class="hx:absolute hx:-mt-20" id="2-o-giro-dos-transformers"&gt;&lt;/span&gt;
-&lt;a href="#2-o-giro-dos-transformers" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;O Transformer não conta frequências — aprende &lt;strong&gt;representações vetoriais&lt;/strong&gt;. Cada palavra ocupa um lugar num espaço semântico de centenas de dimensões. &lt;em&gt;Máquina&lt;/em&gt; e &lt;em&gt;pão&lt;/em&gt; estão próximos não pela co-ocorrência, mas porque o modelo aprendeu que ambos pertencem ao campo semântico da &lt;em&gt;transformação&lt;/em&gt;, do &lt;em&gt;artefato&lt;/em&gt;, da &lt;em&gt;produção&lt;/em&gt;.&lt;/p&gt;
+&lt;a href="#2-o-giro-dos-transformers" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;O Transformer não conta frequências — aprende &lt;strong&gt;representações vetoriais&lt;/strong&gt;. Cada palavra ocupa um lugar num espaço semântico de centenas de dimensões. &lt;em&gt;Máquina&lt;/em&gt; e &lt;em&gt;pão&lt;/em&gt; estão próximos não pela co-ocorrência, mas porque o modelo aprendeu que ambos pertencem ao campo semântico da &lt;em&gt;transformação&lt;/em&gt;, do &lt;em&gt;artefato&lt;/em&gt;, da &lt;em&gt;produção&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Consequência: a distribuição de palavras geradas &lt;strong&gt;flexibiliza&lt;/strong&gt; a Lei de Zipf.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Palavras raras, mas semanticamente relevantes, ganham chance maior.&lt;/li&gt;
@@ -18,7 +18,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Resultado mensurável: a inclinação log-log &lt;strong&gt;suaviza&lt;/strong&gt; de -1,0 para algo entre &lt;strong&gt;-0,70 e -0,85&lt;/strong&gt;. O desvio de Zipf é a assinatura estatística de que o modelo não está apenas amostrando — está &lt;em&gt;generalizando&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 data-hextra-search-id="3-paralelo-com-a-máquina-de-pão-ikuko-tanaka--matsushita"&gt;3. Paralelo com a Máquina de Pão (Ikuko Tanaka / Matsushita)&lt;span class="hx:absolute hx:-mt-20" id="3-paralelo-com-a-máquina-de-pão-ikuko-tanaka--matsushita"&gt;&lt;/span&gt;
-&lt;a href="#3-paralelo-com-a-m%c3%a1quina-de-p%c3%a3o-ikuko-tanaka--matsushita" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A engenheira Ikuko Tanaka passou meses observando o mestre padeiro do Hotel Osaka International. Ela não copiou a receita — replicou o &lt;strong&gt;gesto&lt;/strong&gt;. Externalizou o conhecimento tácito (aquele que o padeiro sabia com as mãos e não sabia explicar) e o traduziu em parâmetros de engenharia.&lt;/p&gt;
+&lt;a href="#3-paralelo-com-a-m%c3%a1quina-de-p%c3%a3o-ikuko-tanaka--matsushita" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A engenheira Ikuko Tanaka passou meses observando o mestre padeiro do Hotel Osaka International. Ela não copiou a receita — replicou o &lt;strong&gt;gesto&lt;/strong&gt;. Externalizou o conhecimento tácito (aquele que o padeiro sabia com as mãos e não sabia explicar) e o traduziu em parâmetros de engenharia.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -51,7 +51,7 @@
 &lt;/table&gt;
 &lt;p&gt;O pão da máquina é pão. O texto da máquina é texto. Em ambos, o resultado é aceito no mesmo gênero — mas um deles carrega a &lt;strong&gt;marca d&amp;rsquo;água&lt;/strong&gt;. Não a técnica (a que o AI Act exige), mas a ontológica.&lt;/p&gt;
 &lt;h2 data-hextra-search-id="4-o-que-o-desvio-de-zipf-mede-e-o-que-não-mede"&gt;4. O que o Desvio de Zipf Mede (e o que não mede)&lt;span class="hx:absolute hx:-mt-20" id="4-o-que-o-desvio-de-zipf-mede-e-o-que-não-mede"&gt;&lt;/span&gt;
-&lt;a href="#4-o-que-o-desvio-de-zipf-mede-e-o-que-n%c3%a3o-mede" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Se a diferença entre Markov e LLM é mensurável pela inclinação log-log, então:&lt;/p&gt;
+&lt;a href="#4-o-que-o-desvio-de-zipf-mede-e-o-que-n%c3%a3o-mede" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Se a diferença entre Markov e LLM é mensurável pela inclinação log-log, então:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;A &amp;ldquo;alma&amp;rdquo; da linguagem seria apenas um coeficiente?&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -62,7 +62,7 @@
 &lt;/ul&gt;
 &lt;p&gt;O coeficiente de Zipf não separa humano de máquina. Ele separa &lt;strong&gt;máquina que imita&lt;/strong&gt; de &lt;strong&gt;máquina que generaliza&lt;/strong&gt;. É um termômetro de sofisticação, não de alma.&lt;/p&gt;
 &lt;h2 data-hextra-search-id="5-a-tese-conectando-com-produzir-ia"&gt;5. A Tese (conectando com &amp;ldquo;Produzir IA&amp;rdquo;)&lt;span class="hx:absolute hx:-mt-20" id="5-a-tese-conectando-com-produzir-ia"&gt;&lt;/span&gt;
-&lt;a href="#5-a-tese-conectando-com-produzir-ia" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;O T8 da família &lt;em&gt;Produzir IA&lt;/em&gt; diz:&lt;/p&gt;
+&lt;a href="#5-a-tese-conectando-com-produzir-ia" class="subheading-anchor" aria-label="Link permanente para esta secção"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;O T8 da família &lt;em&gt;Produzir IA&lt;/em&gt; diz:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Não se marca o que a máquina faz. Marca-se o que a máquina faz quando invade o território que reservamos para a alma.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

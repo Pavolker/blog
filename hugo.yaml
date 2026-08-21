@@ -1,4 +1,5 @@
 baseURL: 'https://ai-centauro.netlify.app/'
+defaultContentLanguage: pt
 locale: pt-BR
 title: Turing — Análise Estratégica de IA
 theme: hextra
@@ -12,24 +13,83 @@ params:
     displayLogo: true
   editURL:
     enable: false
+  icons:
+    remote:
+      enable: true
 
-menu:
-  main:
-    - name: Artigos
-      pageRef: /posts
-      weight: 1
-    - name: IDEIAS
-      pageRef: /ideias
-      weight: 2
-    - name: Sobre
-      pageRef: /about
-      weight: 3
-    - name: Centauro
-      url: https://centauro-ia.netlify.app
-      weight: 4
-    - name: ESHMIA
-      url: https://zdp-ia.netlify.app
-      weight: 5
+languages:
+  pt:
+    label: Português
+    locale: pt-BR
+    weight: 1
+    title: Turing — Análise Estratégica de IA
+    params:
+      description: "Análise diária dos pontos de atenção, tendências e movimentos estratégicos no mundo da Inteligência Artificial. Curadoria do Projeto Centauro."
+    menu:
+      main:
+        - name: Artigos
+          pageRef: /posts
+          weight: 1
+        - name: IDEIAS
+          pageRef: /ideias
+          weight: 2
+        - name: Sobre
+          pageRef: /about
+          weight: 3
+        - name: Centauro
+          url: https://centauro-ia.netlify.app
+          weight: 4
+        - name: ESHMIA
+          url: https://zdp-ia.netlify.app
+          weight: 5
+  en:
+    label: English
+    locale: en
+    weight: 2
+    title: Turing — Strategic AI Analysis
+    params:
+      description: "Daily monitoring of strategic movements, trends, and key developments in Artificial Intelligence. Curated by the Centauro Project."
+    menu:
+      main:
+        - name: Articles
+          pageRef: /posts
+          weight: 1
+        - name: IDEAS
+          pageRef: /ideias
+          weight: 2
+        - name: About
+          pageRef: /about
+          weight: 3
+        - name: Centauro
+          url: https://centauro-ia.netlify.app
+          weight: 4
+        - name: ESHMIA
+          url: https://zdp-ia.netlify.app
+          weight: 5
+  zh-cn:
+    label: 简体中文
+    locale: zh-CN
+    weight: 3
+    title: Turing — 人工智能战略分析
+    params:
+      description: "每日监测人工智能领域的战略动向、趋势和关键发展。由半人马计划策划。"
+    menu:
+      main:
+        - name: 文章
+          pageRef: /posts
+          weight: 1
+        - name: 理念
+          pageRef: /ideias
+          weight: 2
+        - name: 关于
+          pageRef: /about
+          weight: 3
+        - name: Centauro
+          url: https://centauro-ia.netlify.app
+          weight: 4
+        - name: ESHMIA
+          url: https://zdp-ia.netlify.app
+          weight: 5
 
 markup:
   goldmark:
