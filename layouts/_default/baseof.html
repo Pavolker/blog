@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang | default "pt-BR" }}" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Meta Tags -->
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
+  <meta name="author" content="{{ .Site.Params.author.name }}">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
+
+  <!-- Favicon placeholder or site icon (we can use standard emojis or clean look) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+
+  <!-- Preconnect Google Fonts for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Main Stylesheet & JS Script -->
+  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+  <script src="{{ "js/main.js" | relURL }}" defer></script>
+</head>
+<body>
+
+  <!-- Barra de Progresso de Leitura -->
+  <div class="progress-container">
+    <div class="progress-bar"></div>
+  </div>
+
+  <!-- Header & Navbar -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <a href="{{ "" | relURL }}" class="navbar-brand">
+        <span>🧠 TURING</span>
+      </a>
+      
+      <nav>
+        <ul class="navbar-links">
+          {{ $page := . }}
+          {{ range .Site.Menus.main }}
+            {{ $active := eq (strings.TrimSuffix "/" $page.RelPermalink) (strings.TrimSuffix "/" (relURL .URL)) }}
+            <li>
+              <a href="{{ .URL | relURL }}" class="{{ if $active }}active{{ end }}">
+                {{ .Name }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </nav>
+
+      <div class="navbar-actions">
+        <!-- Botão Toggle de Tema -->
+        <button class="theme-toggle-btn" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+          <!-- Sun Icon (Tema Claro) -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+          </svg>
+          <!-- Moon Icon (Tema Escuro) -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  {{ block "main" . }}{{ end }}
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer-container">
+      <ul class="footer-links">
+        {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      <div class="footer-info">
+        <p>&copy; {{ now.Format "2006" }} Turing — Análise Estratégica de IA. Projeto Centauro.</p>
+        <p style="margin-top: 0.5rem; opacity: 0.6; font-size: 0.8rem;">
+          Construído com HTML5 e CSS Vanilla sobre Hugo.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

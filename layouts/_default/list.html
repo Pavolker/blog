@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="container" style="padding-top: 4rem;">
+  <!-- Cabeçalho da Listagem -->
+  <header style="margin-bottom: 3rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1.5rem;">
+    <h1 style="font-family: var(--font-display); font-size: 2.8rem; font-weight: 700; margin-bottom: 0.5rem; background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      {{ if eq .Type "tags" }}
+        🏷️ Tag: {{ .Title }}
+      {{ else }}
+        📰 Todos os Artigos
+      {{ end }}
+    </h1>
+    <p style="color: var(--text-secondary); font-size: 1.1rem;">
+      {{ if eq .Type "tags" }}
+        Filtrando artigos marcados sob a categoria "{{ .Title }}"
+      {{ else }}
+        Navegue por todas as nossas análises estratégicas sobre inteligência artificial.
+      {{ end }}
+    </p>
+  </header>
+
+  <!-- Grade de Artigos -->
+  <div class="articles-grid">
+    {{ range .Pages }}
+      <article class="article-card">
+        <div class="article-card-header">
+          <time class="article-date" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
+            📅 {{ .Date.Format "02/01/2006" }}
+          </time>
+          <h3 class="article-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h3>
+          <p class="article-description">{{ .Description }}</p>
+        </div>
+        
+        <div class="article-card-footer">
+          <div class="article-tags">
+            {{ range .Params.tags }}
+              <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}/" class="tag-badge">{{ . }}</a>
+            {{ end }}
+          </div>
+          <span class="read-more-link">
+            {{ .ReadingTime }} min · Ler mais →
+          </span>
+        </div>
+      </article>
+    {{ else }}
+      <p style="grid-column: 1 / -1; text-align: center; color: var(--text-muted); padding: 3rem;">
+        Nenhum artigo encontrado nesta categoria.
+      </p>
+    {{ end }}
+  </div>
+
+  <div style="margin-top: 4rem; text-align: center;">
+    <a href="{{ "" | relURL }}" class="read-more-link" style="font-size: 1.05rem;">
+      ← Voltar para a Página Inicial
+    </a>
+  </div>
+</div>
+{{ end }}
