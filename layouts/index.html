@@ -39,9 +39,9 @@
               <span class="tag-badge">{{ . }}</span>
             {{ end }}
           </div>
-          <span class="read-more-link">
+          <a href="{{ .RelPermalink }}" class="read-more-link" aria-label="Ler mais sobre {{ .Title }}">
             {{ .ReadingTime }} min · Ler mais →
-          </span>
+          </a>
         </div>
       </article>
     {{ end -}}

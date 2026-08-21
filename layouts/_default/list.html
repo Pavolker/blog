@@ -6,16 +6,18 @@
       {{ if eq .Type "tags" }}
         🏷️ Tag: {{ .Title }}
       {{ else }}
-        📰 Todos os Artigos
+        {{ .Title }}
       {{ end }}
     </h1>
-    <p style="color: var(--text-secondary); font-size: 1.1rem;">
-      {{ if eq .Type "tags" }}
-        Filtrando artigos marcados sob a categoria "{{ .Title }}"
-      {{ else }}
+    {{ if .Content }}
+      <div style="color: var(--text-secondary); font-size: 1.1rem; line-height: 1.6;">
+        {{ .Content }}
+      </div>
+    {{ else }}
+      <p style="color: var(--text-secondary); font-size: 1.1rem;">
         Navegue por todas as nossas análises estratégicas sobre inteligência artificial.
-      {{ end }}
-    </p>
+      </p>
+    {{ end }}
   </header>
 
   <!-- Grade de Artigos -->
@@ -38,9 +40,9 @@
               <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}/" class="tag-badge">{{ . }}</a>
             {{ end }}
           </div>
-          <span class="read-more-link">
+          <a href="{{ .RelPermalink }}" class="read-more-link" aria-label="Ler mais sobre {{ .Title }}">
             {{ .ReadingTime }} min · Ler mais →
-          </span>
+          </a>
         </div>
       </article>
     {{ else }}
