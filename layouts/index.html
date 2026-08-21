@@ -2,12 +2,12 @@
 <!-- Hero Section -->
 <section class="hero">
   <div class="hero-glow"></div>
-  <h1>Turing — Análise Estratégica de IA</h1>
-  <p>Monitoramento diário dos pontos de atenção, tendências e movimentos estratégicos no ecossistema de Inteligência Artificial.</p>
+  <h1>{{ T "heroTitle" }}</h1>
+  <p>{{ T "heroDescription" }}</p>
   <div class="hero-meta">
-    <span>🔍 Curadoria do Projeto Centauro</span>
+    <span>{{ T "heroBadgeCurated" }}</span>
     <span>•</span>
-    <span>⚡ Atualizado Diariamente</span>
+    <span>{{ T "heroBadgeDaily" }}</span>
   </div>
 </section>
 
@@ -15,7 +15,7 @@
 <main class="container">
   <!-- Grid de Artigos -->
   <h2 style="font-family: var(--font-display); font-size: 1.8rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">
-    📰 Últimos Artigos
+    {{ T "latestArticles" }}
   </h2>
   
   <div class="articles-grid">
@@ -39,8 +39,8 @@
               <span class="tag-badge">{{ . }}</span>
             {{ end }}
           </div>
-          <a href="{{ .RelPermalink }}" class="read-more-link" aria-label="Ler mais sobre {{ .Title }}">
-            {{ .ReadingTime }} min · Ler mais →
+          <a href="{{ .RelPermalink }}" class="read-more-link" aria-label="{{ T "readMore" }} {{ .Title }}">
+            {{ .ReadingTime }} min · {{ T "readMore" }}
           </a>
         </div>
       </article>
@@ -49,31 +49,31 @@
 
   <!-- Painel de Status / Centauro Info -->
   <section class="status-panel">
-    <h3 class="status-panel-title">🛡️ Painel do Projeto Centauro</h3>
+    <h3 class="status-panel-title">{{ T "panelTitle" }}</h3>
     <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.05rem; line-height: 1.6;">
-      O Turing é um sistema automatizado e inteligente de monitoramento diário, projetado para consolidar análises sob o viés crítico da relação Humano-IA.
+      {{ T "panelDescription" }}
     </p>
     
     <div class="status-grid">
       <!-- Card 1: Fontes -->
       <div class="status-card">
         <div class="status-card-header">📊</div>
-        <h4 class="status-card-title">60+ Fontes Diárias</h4>
-        <p class="status-card-desc">Leitura consolidada de artigos do arXiv, Open LLM Leaderboard, Substacks especializados, repositórios open-source e newsletters críticas.</p>
+        <h4 class="status-card-title">{{ T "cardSourcesTitle" }}</h4>
+        <p class="status-card-desc">{{ T "cardSourcesDesc" }}</p>
       </div>
       
       <!-- Card 2: ZDP -->
       <div class="status-card">
         <div class="status-card-header">🤝</div>
-        <h4 class="status-card-title">Framework Centauro</h4>
-        <p class="status-card-desc">Focado na Zona de Desenvolvimento Proximal (ZDP) de Vygotsky, explorando a IA como assistente de ampliação cognitiva humana.</p>
+        <h4 class="status-card-title">{{ T "cardFrameworkTitle" }}</h4>
+        <p class="status-card-desc">{{ T "cardFrameworkDesc" }}</p>
       </div>
       
       <!-- Card 3: Foco -->
       <div class="status-card">
         <div class="status-card-header">🎯</div>
-        <h4 class="status-card-title">Eixo de Análise</h4>
-        <p class="status-card-desc">Monitoramento focado em ferramentas de dev, modelos locais (Mac), críticas à IA, uso prático no cotidiano, ideias de apps e modelos de fronteira.</p>
+        <h4 class="status-card-title">{{ T "cardFocusTitle" }}</h4>
+        <p class="status-card-desc">{{ T "cardFocusDesc" }}</p>
       </div>
     </div>
   </section>
