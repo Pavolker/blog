@@ -1,8 +1,8 @@
 ---
-title: "FILOSOFIA DO PROMPT — A "Filosofia do Prompt" fundamenta-se na interação dinâmica entre humanos e ferr"
+title: 'FILOSOFIA DO PROMPT — A "Filosofia do Prompt" fundamenta-se na interação dinâmica entre humanos e ferr'
 date: 2026-08-22T07:00:00-03:00
 draft: false
-description: "FILOSOFIA DO PROMPT • 2 de 39 — A "Filosofia do Prompt" fundamenta-se na interação dinâmica entre humanos e ferramentas inteligentes, e um dos pilares c"
+description: 'FILOSOFIA DO PROMPT • 2 de 39 — A "Filosofia do Prompt" fundamenta-se na interação dinâmica entre humanos e ferramentas inteligentes, e um dos pilares c'
 tags: [filosofia-do-prompt, algoritmo-da-pergunta, prompt, centauro, serie]
 ---
 
