@@ -1,6 +1,6 @@
 ---
 title: "📈 GitHub Stars Turing — Taxa de Crescimento dos Repositórios de IA"
-date: 2026-08-25T12:00:00-03:00
+date: 2026-08-25T07:00:00-03:00
 draft: false
 description: "O Turing passa a monitorar a velocidade de crescimento dos repositórios de código aberto mais relevantes do ecossistema de IA. Um indicador de adoção, não de acumulação."
 tags: [turing, github-stars, indicador, código-aberto, crescimento]
