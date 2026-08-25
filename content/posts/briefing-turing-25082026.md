@@ -2,84 +2,128 @@
 title: "Briefing Turing - 25/08/2026"
 date: 2026-08-25T07:00:00-03:00
 draft: false
-description: "Briefing Turing de 25/08/2026. Análise dos pontos de atenção em IA."
-tags: [turing, inteligência-artificial, ferramentas, crítica, modelos, cotidiano, aplicações, modelos-locais]
+description: "Briefing Turing de 25/08/2026. Análise diária dos movimentos e transformações no mundo da IA."
+tags: [turing, inteligência-artificial, ferramentas, crítica, modelos, cotidiano, humano-ia]
 ---
 
-🧠 **TURING — Briefing Diário de IA**
-📅 **Data:** 25/08/2026
+BRIEFING TURING — 25/08/2026
 
 ---
-### 📊 Benchmarks ao Vivo (Open LLM Leaderboard)
 
-📏 **16 modelos** | Fonte: Open LLM Leaderboard v2 | Dados: fev/2025
+## 📋 Dados Coletados
 
-- **Qwen 2.5 72B**: ESHMIA=0.9063 (IFEval: 1.0490 | BBH: 0.9674 | MATH: 1.4955 | GPQA: 0.5769 | MUSR: 0.5990 | MMLU-PRO: 0.7501)
-- **Qwen 2.5 32B**: ESHMIA=0.8949 (IFEval: 1.0074 | BBH: 0.9165 | MATH: 1.5634 | GPQA: 0.5201 | MUSR: 0.6066 | MMLU-PRO: 0.7555)
-- **Qwen 2.5 14B**: ESHMIA=0.8228 (IFEval: 0.9843 | BBH: 0.8499 | MATH: 1.3690 | GPQA: 0.4956 | MUSR: 0.5839 | MMLU-PRO: 0.6539)
-- **Qwen 2.5 7B**: ESHMIA=0.7432 (IFEval: 0.9011 | BBH: 0.7158 | MATH: 1.2500 | GPQA: 0.4479 | MUSR: 0.5726 | MMLU-PRO: 0.5716)
-- **Gemma 2 27B**: ESHMIA=0.6920 (IFEval: 0.9543 | BBH: 0.8563 | MATH: 0.5967 | GPQA: 0.5769 | MUSR: 0.5745 | MMLU-PRO: 0.5935)
-  *... mais 11 modelos disponíveis*
+### arXiv
+
+- **Prime Agent: A Self-Improving RLM Harness** (*arXiv cs.CL*)
+  > Prime Agent is an open-source harness for long-horizon agency that self-improves via reinforcement learning
+  [Link](http://arxiv.org/abs/2608.23566v1)
+
+- **ReWorld: An Interactive World Model with Long-Horizon Memory** (*arXiv cs.AI*)
+  > ReWorld separates control and memory during training, enabling unbounded context for interactive agents
+  [Link](http://arxiv.org/abs/2608.23565v1)
+
+- **SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?** (*arXiv cs.AI*)
+  > Tests whether coding agents can perform full repository migrations — not just fix bugs
+  [Link](http://arxiv.org/abs/2608.23564v1)
+
+- **ConvergeFlow: Language Flow with Provable Convergence to Token Embeddings** (*arXiv cs.LG*)
+  > Continuous flow-based language models achieving performance competitive with discrete models
+  [Link](http://arxiv.org/abs/2608.23551v1)
+
+### RSS / Newsletters / Blogs
+
+- **ChatGPT Apple Messages 💬, Anthropic's meeting recorder 💼, Mistral Agentic Search 🔍** (*TLDR AI*)
+  - ChatGPT ganha integração direta com iMessages
+  - Anthropic lança gravador de reuniões com IA
+  - Mistral anuncia busca agentiva
+  [Link](https://tldr.tech/ai/2026-08-21)
+
+- **DeepSeek Flash Vision 👀, Claude Mythos security 🛡️, inside Grok Bot 🤖** (*TLDR AI*)
+  [Link](https://tldr.tech/ai/2026-08-24)
+
+- **Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye** (*Import AI*)
+  [Link](https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/)
+
+- **Autonomy and Innovation** (*Stratechery - Ben Thompson*)
+  > Incentives favor offense when it comes to agentic cybersecurity; it's the same dynamic that will limit incumbents and fuel startups
+  [Link](https://stratechery.com)
+
+- **Choosing to Stay Human** (*One Useful Thing - Ethan Mollick*)
+  > Social media is filling with AI-generated content that looks suspiciously similar; choosing to remain human — producing original content, interacting authentically — is becoming a deliberate and increasingly rare act
+  [Link](https://www.oneusefulthing.org)
+
+- **Up the Stack: How AI's Escape From the Commodity Trap Risks Enterprise Lock-in** (*AI Snake Oil - Sayash Kapoor, Arvind Narayanan*)
+  > Critics and boosters are both looking in the wrong place. AI moving up the stack risks deeper enterprise lock-in than previous tech eras
+  [Link](https://www.aisnakeoil.com)
+
+### Benchmarks (Open LLM Leaderboard)
+
+16 modelos | Dados: fev/2025
+
+- **Qwen 2.5 72B**: ESHMIA=0.9063
+- **Qwen 2.5 32B**: ESHMIA=0.8949
+- **Qwen 2.5 14B**: ESHMIA=0.8228
+  *... mais 13 modelos disponíveis*
 
 ---
-### 🔥 Pontos de Atenção
 
-#### 🛠️ Ferramentas para Dev
-- **Prime Agent: A Self-Improving RLM Harness** (arXiv cs.CL)
-  > Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long
-- **When Names Cross Scripts: A Source-Grounded Benchmark for Historical Entity Reconciliation in the Mongol World** (arXiv cs.CL)
-  > Historical people may appear under different languages, scripts, and transcription traditions, while distinct individuals may share highly similar or even identical names. This makes historical identi
-- **@AndrewYNg** (X/Twitter)
-  > (não foi possível extrair tweets)
+## 📋 Instruções para o Briefing
 
-#### 💻 Modelos Locais (Mac)
-- **Robustness of Anomaly Detection Models for Industrial Control Systems under Training-Time Data Contamination** (arXiv cs.LG)
-  > Machine-learning-based anomaly detection is increasingly used in industrial control systems (ICS), yet most studies assume that detector training data is trustworthy. In practice, training data may be
-- **Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye** (Import AI)
-  > Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating
+Escreva o Briefing Turing seguindo o padrão editorial definido na SKILL.md.
 
-#### 🗣️ Críticos da IA
-- **Up the Stack: How AI’s Escape From the Commodity Trap Risks Enterprise Lock-in** (AI Snake Oil (Sayash Kapoor, Arvind Narayanan))
-  > Critics and boosters are both looking in the wrong place
-
-#### 🌱 IA no Cotidiano
-- **How to Train a Critic Stably and Efficiently** (arXiv cs.AI)
-  > Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token
-- **Physics-Constrained Deep Learning Model for Contactless Blood Pressure Monitoring from Triaxial Bodyseismography** (arXiv cs.AI)
-  > Ballistocardiography (BCG) is promising for unobtrusive long-term blood pressure (BP) monitoring in laboratory settings, but traditional BCG signals are vulnerable to the variations in body-bed intera
-- **How to Train a Critic Stably and Efficiently** (arXiv cs.LG)
-  > Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token
-
-#### 💡 Ideias de Apps
-- **Inertial Manifold Neural Operator for Dissipative Time-Dependent Partial Differential Equations** (arXiv cs.LG)
-  > In this paper, we introduce the Inertial Manifold Neural Operator (IMNO) for solving dissipative time-dependent partial differential equations (PDEs). The long-time dynamics of such systems often exhi
-- **Autonomy and Innovation** (Stratechery (Ben Thompson))
-  > Incentives favor offense when it comes to agentic cybersecurity; it's the same dynamic that will limit incumbents and fuel startups in the long run.
-- **Choosing to Stay Human** (One Useful Thing (Ethan Mollick))
-  > If you go to your favorite social media site, you will find it full of posts that start to look suspiciously similar to each other:
-
-#### 🚀 Modelos de Ponta
-- **SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?** (arXiv cs.AI)
-  > Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they 
-- **SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?** (arXiv cs.CL)
-  > Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they 
-- **ChatGPT Apple Messages 💬, Anthropic’s meeting recorder 💼, Mistral Agentic Search 🔍** (TLDR AI)
-  > ChatGPT Apple Messages 💬, Anthropic’s meeting recorder 💼, Mistral Agentic Search 🔍
+**Estrutura a produzir:**
+1. BRIEFING TURING — [DATA]
+2. Abertura (2-3 parágrafos com a ideia do dia)
+3. ### O QUE ACONTECEU
+4. ### O QUE ESTAMOS OBSERVANDO
+5. ### HUMANO + IA (quando pertinente)
+6. ### UMA IDEIA PARA GUARDAR
+7. ### PARA ACOMPANHAR
 
 ---
-### 🧠 Análise Estratégica Turing
 
-O fato mais estrutural do dia 25 de agosto de 2026 não é o lançamento de um modelo, mas a consolidação de um novo patamar de exigência para agentes de código: o SWE Refactor Bench, publicado hoje no arXiv, testa se agentes de programação conseguem executar migrações completas de repositório — não corrigir um bug aqui ou ali, mas substituir uma pilha tecnológica inteira em bases de código com décadas de débito técnico. Simultaneamente, o Prime Agent surge como um harness open-source para agentes de longo horizonte que se auto-melhoram via reinforcement learning. A mensagem para desenvolvedores é clara: a barreira de entrada para ferramentas de IA está deixando de ser "conseguem escrever código" e passando a ser "conseguem planejar, executar e validar uma tarefa que levaria um engenheiro sênior semanas".
+## 🧠 Briefing Turing
 
-No front dos modelos de ponta, o movimento é de integração nativa e funcionalidades agentivas no cotidiano. O ChatGPT ganha integração direta com iMessages da Apple — abrindo caminho para interações com IA dentro do ecossistema de mensageria mais usado nos EUA. A Anthropic lança um gravador de reuniões baseado em IA. A Mistral anuncia busca agentiva. Nenhum desses é um avanço científico; são sinais de que os laboratórios estão competindo não por qualidade de resposta em benchmarks, mas por presença nos fluxos diários das pessoas. A briga agora é pelo contexto do usuário, e isso favorece empresas que já controlam plataformas de comunicação e produtividade.
+O fato mais importante do dia 25 de agosto de 2026 não é o lançamento de um novo modelo. O que realmente chama a atenção é um movimento que vinha se desenhando há semanas e agora ganha contornos mais nítidos: os agentes de inteligência artificial estão deixando de corrigir problemas pontuais para assumir tarefas que antes exigiam semanas de trabalho de um engenheiro experiente. Uma mudança que começa a redefinir o que significa "delegar" para uma máquina.
 
-A crítica mais refinada do dia vem do AI Snake Oil, com "Up the Stack: How AI’s Escape From the Commodity Trap Risks Enterprise Lock-in". Kapoor e Narayanan argumentam que tanto críticos quanto entusiastas estão olhando para o lugar errado: a IA não é simplesmente uma commodity que reduz custos, nem uma revolução que liberta todos os usuários — na prática, o movimento da IA para cima na pilha de software (de modelo isolado para plataforma integrada) pode criar um lock-in corporativo mais profundo que o das eras anteriores de tecnologia. O ensaio de Ethan Mollick, "Choosing to Stay Human", complementa esse diagnóstico ao observar que as redes sociais estão se enchendo de conteúdo gerado por IA que parece suspeitamente idêntico, e que a escolha de permanecer humano — produzir conteúdo original, interagir de forma autêntica — está se tornando um ato deliberado e cada vez mais raro.
+O SWE Refactor Bench, publicado hoje no arXiv, testa justamente isso: agentes de programação capazes de migrar pilhas tecnológicas inteiras — substituir bibliotecas, atualizar frameworks, adaptar milhares de linhas de código — sem supervisão passo a passo. Não é mais sobre escrever uma função ou corrigir um bug. É sobre planejar, executar e validar uma tarefa complexa do começo ao fim. Simultaneamente, o Prime Agent, também no arXiv, surge como um sistema de código aberto que se auto-melhora via aprendizado por reforço, e o ReWorld propõe uma arquitetura que separa controle e memória para agentes que precisam interagir com o mundo por longos períodos.
 
-A leitura estratégica do dia conecta esses três vetores: os agentes de código estão subindo de escopo (de tarefas pontuais para migrações inteiras); os modelos estão descendo de abstração (de APIs genéricas para integrações nativas com apps do dia a dia); e os críticos alertam que o resultado dessa convergência não é necessariamente um mundo mais produtivo, mas um onde a dependência de plataformas de IA se aprofunda de forma invisível. Para quem constrói, o aprendizado é que a autonomia real — seja de um desenvolvedor que mantém seu próprio harness, seja de um usuário que escolhe a interação humana — exigirá esforço deliberado contra a corrente da commoditização.
----
-### 📌 Para Explorar
-- [How to Train a Critic Stably and Efficiently](http://arxiv.org/abs/2608.23566v1)
-- [ReWorld: An Interactive World Model with Long-Horizon Memory](http://arxiv.org/abs/2608.23565v1)
+Há um padrão aqui: três papers diferentes, três abordagens distintas, todos mirando o mesmo problema — como fazer um agente trabalhar por horas ou dias sem perder o fio da meada.
+
+### O QUE ACONTECEU
+
+Enquanto a pesquisa avança na direção de agentes mais autônomos, o mercado também se movimenta. O ChatGPT ganhou integração direta com o iMessages da Apple, colocando a IA dentro do aplicativo de mensagens mais usado nos Estados Unidos. A Anthropic lançou um gravador de reuniões baseado em IA. A Mistral anunciou busca agentiva. Nenhum desses é um avanço científico — são movimentos de ocupação de território, disputas por presença nos fluxos diários de trabalho e comunicação das pessoas.
+
+No campo da crítica, duas vozes importantes se destacam hoje. No AI Snake Oil, Sayash Kapoor e Arvind Narayanan publicaram "Up the Stack", onde argumentam que a ascensão da IA na pilha de software — deixando de ser um modelo isolado para se tornar plataforma integrada — pode criar uma dependência tecnológica mais profunda que a das eras anteriores. Ethan Mollick, em "Choosing to Stay Human", observa que as redes sociais estão se enchendo de conteúdo gerado por IA que parece suspeitamente idêntico, e que a escolha por produzir conteúdo original e interagir de forma autêntica está se tornando um ato deliberado e cada vez mais raro.
+
+### O QUE ESTAMOS OBSERVANDO
+
+O movimento do dia tem três camadas que se conectam.
+
+Primeiro, os agentes sobem de escopo. De tarefas pontuais — corrigir um bug, responder uma pergunta — para tarefas de longo horizonte: migrar um repositório inteiro, planejar uma sequência de ações, manter coerência ao longo de horas. O SWE Refactor Bench, o Prime Agent e o ReWorld apontam todos na mesma direção.
+
+Segundo, os modelos descem de abstração. De APIs genéricas que exigem integração técnica para presença direta dentro dos aplicativos que as pessoas já usam — iMessages, gravador de reuniões, busca. A briga deixou de ser por qualidade de resposta em testes de desempenho e passou a ser por contexto de uso.
+
+Terceiro, os críticos alertam que o resultado dessa convergência não é necessariamente um mundo mais produtivo, mas um onde a dependência de plataformas de IA se aprofunda de forma invisível. Kapoor e Narayanan chamam a atenção para algo que raramente aparece nas manchetes: a diferença entre usar IA como ferramenta e ser capturado por uma infraestrutura que não se controla.
+
+### HUMANO + IA
+
+A questão que fica para quem observa pela perspectiva Centauro é: o que está sendo redistribuído aqui?
+
+A capacidade de planejar, executar e validar tarefas complexas ao longo de horas — que antes era uma competência exclusivamente humana — começa a ser compartilhada com agentes. Isso não significa que os humanos se tornam desnecessários, mas que a natureza da contribuição humana muda. O que ganha importância é a capacidade de definir o problema com clareza, auditar o resultado, perceber quando o agente está no caminho errado e decidir os limites da autonomia concedida.
+
+Enquanto isso, as ferramentas de IA entram em aplicações que já fazem parte do cotidiano — mensagens, reuniões, buscas. A barreira técnica cai, mas a questão de fundo permanece: quanto de autonomia delegamos sem perder a capacidade de escolher?
+
+### UMA IDEIA PARA GUARDAR
+
+**Agentes de longo horizonte.** A capacidade de um sistema de IA trabalhar durante horas ou dias em um mesmo problema, mantendo coerência e contexto, sem supervisão constante. Essa é uma das transformações mais significativas em curso. Ela desloca o trabalho humano de executor para supervisor, de operador para auditor. E coloca uma pergunta que ainda não sabemos responder: quando um agente trabalha sozinho por um dia inteiro, quem responde pelo resultado?
+
+### PARA ACOMPANHAR
+
 - [SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?](http://arxiv.org/abs/2608.23564v1)
-- [EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings](http://arxiv.org/abs/2608.23563v1)
-- [Physics-Constrained Deep Learning Model for Contactless Blood Pressure Monitoring from Triaxial Bodyseismography](http://arxiv.org/abs/2608.23562v1)
+- [Prime Agent: A Self-Improving RLM Harness](http://arxiv.org/abs/2608.23566v1)
+- [ReWorld: An Interactive World Model with Long-Horizon Memory](http://arxiv.org/abs/2608.23565v1)
+- AI Snake Oil: "Up the Stack: How AI's Escape From the Commodity Trap Risks Enterprise Lock-in"
+- One Useful Thing: "Choosing to Stay Human" — Ethan Mollick
+
+Se os agentes começarem realmente a trabalhar durante horas ou dias sobre um mesmo problema, talvez a pergunta mais importante deixe de ser "qual modelo responde melhor?" e passe a ser outra: quanto trabalho estamos preparados para entregar a uma máquina sem acompanhar cada passo?
