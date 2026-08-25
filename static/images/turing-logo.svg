@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="40" height="40">
+  <defs>
+    <linearGradient id="neural-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer sphere boundary -->
+  <circle cx="50" cy="50" r="44" fill="none" stroke="url(#neural-grad)" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Latitudinal rings (3D sphere effect) -->
+  <ellipse cx="50" cy="50" rx="38" ry="18" fill="none" stroke="url(#neural-grad)" stroke-width="0.6" opacity="0.15" transform="rotate(-15, 50, 50)"/>
+  <ellipse cx="50" cy="50" rx="18" ry="38" fill="none" stroke="url(#neural-grad)" stroke-width="0.6" opacity="0.15" transform="rotate(-15, 50, 50)"/>
+
+  <!-- Neural connections (edges) -->
+  <line x1="50" y1="6" x2="14" y2="28" stroke="url(#neural-grad)" stroke-width="0.7" opacity="0.35"/>
+  <line x1="50" y1="6" x2="86" y2="28" stroke="url(#neural-grad)" stroke-width="0.7" opacity="0.35"/>
+  <line x1="14" y1="28" x2="6" y2="50" stroke="url(#neural-grad)" stroke-width="0.7" opacity="0.3"/>
+  <line x1="86" y1="28" x2="94" y2="50" stroke="url(#neural-grad)" stroke-width="0.7" opacity="0.3"/>
+  <line x1="6" y1="50" x2="14" y2="72" stroke="url(#neural-grad)" stroke-width="0.7" opacity="0.3"/>
+  <line x1="94" y1="50" x2="86" y2="72" stroke="url(#neural-grad)" stroke-width="0.7" opacity="0.3"/>
+  <line x1="14" y1="72" x2="50" y2="94" stroke="url(#neural-grad)" stroke-width="0.7" opacity="0.35"/>
+  <line x1="86" y1="72" x2="50" y2="94" stroke="url(#neural-grad)" stroke-width="0.7" opacity="0.35"/>
+
+  <!-- Cross-connections (through sphere) -->
+  <line x1="14" y1="28" x2="86" y2="72" stroke="url(#neural-grad)" stroke-width="0.4" opacity="0.12"/>
+  <line x1="86" y1="28" x2="14" y2="72" stroke="url(#neural-grad)" stroke-width="0.4" opacity="0.12"/>
+
+  <!-- Center connections -->
+  <line x1="50" y1="50" x2="14" y2="28" stroke="url(#neural-grad)" stroke-width="0.5" opacity="0.2"/>
+  <line x1="50" y1="50" x2="86" y2="28" stroke="url(#neural-grad)" stroke-width="0.5" opacity="0.2"/>
+  <line x1="50" y1="50" x2="6" y2="50" stroke="url(#neural-grad)" stroke-width="0.5" opacity="0.2"/>
+  <line x1="50" y1="50" x2="94" y2="50" stroke="url(#neural-grad)" stroke-width="0.5" opacity="0.2"/>
+  <line x1="50" y1="50" x2="14" y2="72" stroke="url(#neural-grad)" stroke-width="0.5" opacity="0.2"/>
+  <line x1="50" y1="50" x2="86" y2="72" stroke="url(#neural-grad)" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Outer nodes -->
+  <circle cx="50" cy="6" r="4" fill="url(#neural-grad)" filter="url(#glow)"/>
+  <circle cx="14" cy="28" r="3" fill="url(#neural-grad)"/>
+  <circle cx="86" cy="28" r="3" fill="url(#neural-grad)"/>
+  <circle cx="6" cy="50" r="3.5" fill="url(#neural-grad)"/>
+  <circle cx="94" cy="50" r="3.5" fill="url(#neural-grad)"/>
+  <circle cx="14" cy="72" r="3" fill="url(#neural-grad)"/>
+  <circle cx="86" cy="72" r="3" fill="url(#neural-grad)"/>
+  <circle cx="50" cy="94" r="4" fill="url(#neural-grad)" filter="url(#glow)"/>
+
+  <!-- Center node (core) -->
+  <circle cx="50" cy="50" r="5" fill="url(#neural-grad)" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="50" cy="50" r="2.5" fill="#fff" opacity="0.6"/>
+</svg>
