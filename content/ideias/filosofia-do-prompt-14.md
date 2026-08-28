@@ -1,8 +1,8 @@
 ---
-title: "FILOSOFIA DO PROMPT — O advento das "ferramentas inteligentes" e a importância crescente do conceito d"
+title: "FILOSOFIA DO PROMPT — O advento das \"ferramentas inteligentes\" e a importância crescente do conceito d"
 date: 2026-08-28T07:00:00-03:00
 draft: false
-description: "FILOSOFIA DO PROMPT • 14 de 39 — O advento das "ferramentas inteligentes" e a importância crescente do conceito de prompt têm gerado o surgimento de nova"
+description: "FILOSOFIA DO PROMPT • 14 de 39 — O advento das \"ferramentas inteligentes\" e a importância crescente do conceito de prompt têm gerado o surgimento de nova"
 tags: [filosofia-do-prompt, algoritmo-da-pergunta, prompt, centauro, serie]
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: "FILOSOFIA DO PROMPT — A utilização da "Estratégia da Pergunta" na elaboração de um prompt de excelênci"
+title: "FILOSOFIA DO PROMPT — A utilização da \"Estratégia da Pergunta\" na elaboração de um prompt de excelênci"
 date: 2026-08-28T07:00:00-03:00
 draft: false
-description: "FILOSOFIA DO PROMPT • 15 de 39 — A utilização da "Estratégia da Pergunta" na elaboração de um prompt de excelência é fundamental para garantir a clareza,"
+description: "FILOSOFIA DO PROMPT • 15 de 39 — A utilização da \"Estratégia da Pergunta\" na elaboração de um prompt de excelência é fundamental para garantir a clareza,"
 tags: [filosofia-do-prompt, algoritmo-da-pergunta, prompt, centauro, serie]
 ---
 
