@@ -1,8 +1,8 @@
 ---
-title: "FILOSOFIA DO PROMPT — O "Time Centauro" é uma equipe híbrida composta por humanos e ferramentas inteli"
+title: "FILOSOFIA DO PROMPT — O \"Time Centauro\" é uma equipe híbrida composta por humanos e ferramentas inteli"
 date: 2026-08-30T07:00:00-03:00
 draft: false
-description: "FILOSOFIA DO PROMPT • 19 de 39 — O "Time Centauro" é uma equipe híbrida composta por humanos e ferramentas inteligentes, concebida para maximizar a efici"
+description: "FILOSOFIA DO PROMPT • 19 de 39 — O \"Time Centauro\" é uma equipe híbrida composta por humanos e ferramentas inteligentes, concebida para maximizar a efici"
 tags: [filosofia-do-prompt, algoritmo-da-pergunta, prompt, centauro, serie]
 ---
 

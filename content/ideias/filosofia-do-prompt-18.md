@@ -2,7 +2,7 @@
 title: "FILOSOFIA DO PROMPT — Em 1998, o renomado campeão de xadrez Garry Kasparov introduziu ao mundo um conc"
 date: 2026-08-30T07:00:00-03:00
 draft: false
-description: "FILOSOFIA DO PROMPT • 18 de 39 — Em 1998, o renomado campeão de xadrez Garry Kasparov introduziu ao mundo um conceito inovador ao criar o termo "Centauro"
+description: "FILOSOFIA DO PROMPT • 18 de 39 — Em 1998, o renomado campeão de xadrez Garry Kasparov introduziu ao mundo um conceito inovador ao criar o termo \"Centauro\""
 tags: [filosofia-do-prompt, algoritmo-da-pergunta, prompt, centauro, serie]
 ---
 
