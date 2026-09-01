@@ -1,8 +1,8 @@
 ---
-title: "FILOSOFIA DO PROMPT — O conceito do "Time Centauro" é uma abordagem inovadora que promove uma nova rel"
+title: "FILOSOFIA DO PROMPT — O conceito do 'Time Centauro' é uma abordagem inovadora que promove uma nova rel"
 date: 2026-08-31T07:00:00-03:00
 draft: false
-description: "FILOSOFIA DO PROMPT • 20 de 39 — O conceito do "Time Centauro" é uma abordagem inovadora que promove uma nova relação de complementaridade entre humanos "
+description: "FILOSOFIA DO PROMPT • 20 de 39 — O conceito do 'Time Centauro' é uma abordagem inovadora que promove uma nova relação de complementaridade entre humanos "
 tags: [filosofia-do-prompt, algoritmo-da-pergunta, prompt, centauro, serie]
 ---
 

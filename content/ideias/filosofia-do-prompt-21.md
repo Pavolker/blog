@@ -1,8 +1,8 @@
 ---
-title: "FILOSOFIA DO PROMPT — O "Time Centauro" representa uma convergência inovadora entre seres humanos e ag"
+title: "FILOSOFIA DO PROMPT — O 'Time Centauro' representa uma convergência inovadora entre seres humanos e ag"
 date: 2026-08-31T07:00:00-03:00
 draft: false
-description: "FILOSOFIA DO PROMPT • 21 de 39 — O "Time Centauro" representa uma convergência inovadora entre seres humanos e agentes de IA, exigindo um conjunto único "
+description: "FILOSOFIA DO PROMPT • 21 de 39 — O 'Time Centauro' representa uma convergência inovadora entre seres humanos e agentes de IA, exigindo um conjunto único "
 tags: [filosofia-do-prompt, algoritmo-da-pergunta, prompt, centauro, serie]
 ---
 
