@@ -1,13 +1,12 @@
 ---
-title: "FILOSOFIA DO PROMPT — Em 1998, o renomado campeão de xadrez Garry Kasparov introduziu ao mundo um conc"
-date: 2026-08-30T07:00:00-03:00
+title: "FILOSOFIA DO PROMPT — CARACTERÍSTICA DO TIME CENTAURO"
+date: 2026-09-02T07:00:00-03:00
 draft: false
-description: "FILOSOFIA DO PROMPT • 18 de 39 — Em 1998, o renomado campeão de xadrez Garry Kasparov introduziu ao mundo um conceito inovador ao criar o termo \"Centauro\""
-tags: [filosofia-do-prompt, algoritmo-da-pergunta, prompt, centauro, serie]
----
-
-**Série FILOSOFIA DO PROMPT — 18 de 39**
-
+description: "Em 1998, o renomado campeão de xadrez Garry Kasparov introduziu ao mundo um conceito inovador ao criar o termo \"Centauro\". Após sua famosa derrota para o superc..."
+tags:
+  - filosofia-do-prompt
+  - centauro
+  - inteligencia-artificial
 ---
 
 Em 1998, o renomado campeão de xadrez Garry Kasparov introduziu ao mundo um conceito inovador ao criar o termo "Centauro". Após sua famosa derrota para o supercomputador Deep Blue, Kasparov não se resignou à supremacia das máquinas sobre os humanos, mas vislumbrou uma nova forma de colaboração onde humanos e máquinas trabalhariam juntos de forma interativa e produtiva. Ele chamou essa parceria de "xadrez avançado", na qual jogadores humanos se uniam a computadores para melhorar suas habilidades e estratégias no jogo.
@@ -41,7 +40,3 @@ Hannah Arendt, em sua obra sobre a condição humana, enfatiza o papel transform
 A "vantagem do criador" é um aspecto intrínseco da constituição do “Time Centauro”, porque sabemos e prevemos os usos e impactos dessa relação, explorando cenários futuros através da ficção, da ciência e da especulação filosófica. Por isso mesmo, a estruturação da relação nos moldes do “Time Centauro” nos obriga a termos as competências adequadas para o melhor uso da ferramenta. 
 
 Desta forma, o “Time Centauro” é uma nova conformação da relação humano-ferramenta, que deverá estabelecer novos rumos na  nossa existência e evolução. Assim como Quíron simboliza a fusão harmoniosa de dois mundos, o conceito de “Time Centauro” aponta para uma união de nossa capacidade natural com as potencialidades ampliadas das ferramentas inteligentes. Essa relação fundadora continua a ser um motor de transformação, desafiando-nos a equilibrar o poder criativo com a responsabilidade de moldar um futuro que reflita o melhor de nossa humanidade.
-
----
-
-*Publicado em 30/08/2026 | Série FILOSOFIA DO PROMPT (18 de 39)*
