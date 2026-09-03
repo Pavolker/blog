@@ -1,6 +1,6 @@
 ---
 title: "FILOSOFIA DO PROMPT — CARACTERÍSTICA DO TIME CENTAURO"
-date: 2026-09-02T07:00:00-03:00
+date: 2026-09-03T07:00:00-03:00
 draft: false
 description: "Em 1998, o renomado campeão de xadrez Garry Kasparov introduziu ao mundo um conceito inovador ao criar o termo \"Centauro\". Após sua famosa derrota para o superc..."
 tags:
