@@ -1,13 +1,12 @@
 ---
-title: "FILOSOFIA DO PROMPT — O \"Time Centauro\" é uma equipe híbrida composta por humanos e ferramentas inteli"
-date: 2026-08-30T07:00:00-03:00
+title: "FILOSOFIA DO PROMPT — AGENTES DE IA"
+date: 2026-09-04T07:00:00-03:00
 draft: false
-description: "FILOSOFIA DO PROMPT • 19 de 39 — O \"Time Centauro\" é uma equipe híbrida composta por humanos e ferramentas inteligentes, concebida para maximizar a efici"
-tags: [filosofia-do-prompt, algoritmo-da-pergunta, prompt, centauro, serie]
----
-
-**Série FILOSOFIA DO PROMPT — 19 de 39**
-
+description: "O \"Time Centauro\" é uma equipe híbrida composta por humanos e ferramentas inteligentes, concebida para maximizar a eficiência, a criatividade e a capacidade de ..."
+tags:
+  - filosofia-do-prompt
+  - centauro
+  - inteligencia-artificial
 ---
 
 O "Time Centauro" é uma equipe híbrida composta por humanos e ferramentas inteligentes, concebida para maximizar a eficiência, a criatividade e a capacidade de resolução de problemas. Nesse contexto, os agentes de IA desempenham um papel crucial, atuando como extensões das capacidades humanas e complementando as habilidades da equipe com suas próprias competências tecnológicas. A sinergia entre humanos e agentes de IA dentro do “Time Centauro” cria uma dinâmica poderosa e inovadora, permitindo que tarefas complexas sejam abordadas de maneira mais eficaz e eficiente.
@@ -39,7 +38,3 @@ Timnit Gebru é uma das principais vozes em ética na inteligência artificial. 
 Finalmente, Yutaka Matsuo, professor na Universidade de Tóquio e presidente da Japan Deep Learning Association, é conhecido por suas inovações em mineração de dados na internet. Ele desenvolveu algoritmos que podem detectar sinais de terremotos através da análise de menções no Twitter, demonstrando a capacidade dos agentes de IA em monitorar e reagir rapidamente a eventos em tempo real. Matsuo também apoia o ecossistema de startups de IA no Japão, promovendo a inovação e a aplicação prática das tecnologias de IA em novos negócios.
 
 Esses profissionais não apenas contribuem para o avanço técnico dos agentes de IA, mas também moldam a maneira como essas tecnologias são integradas em nossas vidas. Em um "Time Centauro", onde a colaboração entre humanos e agentes de IA é maximizada, as contribuições de Ng, Li, Karpathy, Hassabis, Gebru e Matsuo são inestimáveis, oferecendo uma base sólida sobre a qual o futuro da inteligência artificial será construído.
-
----
-
-*Publicado em 30/08/2026 | Série FILOSOFIA DO PROMPT (19 de 39)*
