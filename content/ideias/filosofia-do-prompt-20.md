@@ -1,13 +1,12 @@
 ---
-title: "FILOSOFIA DO PROMPT — O conceito do 'Time Centauro' é uma abordagem inovadora que promove uma nova rel"
-date: 2026-08-31T07:00:00-03:00
+title: "FILOSOFIA DO PROMPT — Identificação do Problema: O coordenador humano identifica um problema e define claramente os objetivos e requisitos."
+date: 2026-09-08T07:00:00-03:00
 draft: false
-description: "FILOSOFIA DO PROMPT • 20 de 39 — O conceito do 'Time Centauro' é uma abordagem inovadora que promove uma nova relação de complementaridade entre humanos "
-tags: [filosofia-do-prompt, algoritmo-da-pergunta, prompt, centauro, serie]
----
-
-**Série FILOSOFIA DO PROMPT — 20 de 39**
-
+description: "O conceito do \"Time Centauro\" é uma abordagem inovadora que promove uma nova relação de complementaridade entre humanos e ferramentas inteligentes. Essa equipe ..."
+tags:
+  - filosofia-do-prompt
+  - centauro
+  - inteligencia-artificial
 ---
 
 O conceito do "Time Centauro" é uma abordagem inovadora que promove uma nova relação de complementaridade entre humanos e ferramentas inteligentes. Essa equipe é projetada para combinar a intuição, criatividade e julgamento humano com a velocidade, precisão e capacidade de processamento de dados dos agentes de IA. O design do time inclui três componentes principais: coordenação humana, agentes de IA supervisores e agentes de IA trabalhadores.
@@ -48,7 +47,6 @@ Os agentes de IA trabalhadores são especializados em tarefas específicas e sã
 
 A dinâmica de enfrentamento de problemas no "Time Centauro" pode ser descrita da seguinte forma:
 
-1. Identificação do Problema: O coordenador humano identifica um problema e define claramente os objetivos e requisitos.
 2. Planejamento: O agente supervisor planeja a abordagem, dividindo o problema em subtarefas e atribuindo-as aos agentes trabalhadores especializados.
 3. Execução: Os agentes trabalhadores executam suas tarefas, processando dados, analisando informações e gerando insights.
 4. Monitoramento e Integração: O agente supervisor monitora o progresso e integra os resultados em um relatório compreensível.
@@ -60,7 +58,3 @@ O "Time Centauro" representa uma evolução na forma como humanos e IA colaboram
 [PastedGraphic]: PastedGraphic.png width=267px height=173px
 
 [PastedGraphic1]: PastedGraphic1.png
-
----
-
-*Publicado em 31/08/2026 | Série FILOSOFIA DO PROMPT (20 de 39)*
