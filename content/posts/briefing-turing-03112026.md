@@ -3,7 +3,7 @@ title: "Briefing Turing - 03/11/2026"
 date: 2026-11-03T06:00:00-03:00
 draft: false
 description: "Briefing Turing de 03/11/2026. Análise diária dos movimentos e transformações no mundo da IA."
-tags: [turing, inteligência-artificial, ferramentas, modelos, humano-ia]
+tags: [turing, inteligência-artificial, ferramentas, crítica, modelos, humano-ia]
 ---
 
 # BRIEFING TURING — 03/11/2026
